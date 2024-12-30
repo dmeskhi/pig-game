@@ -1,5 +1,4 @@
-# pig-game
-Pig Dice Game
+# Pig Dice game
 ### Goal: 
 Be the first player to reach a target score, such as 100 
 ### Gameplay: 
