@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   margin: 0;
@@ -12,13 +12,16 @@ html {
 }
 
 body {
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background: #8A2387;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #8A2387, #E94057, #F27121);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #8A2387, #E94057, #F27121 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8a2387;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8a2387, #e94057, #f27121);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,9 +71,11 @@ main {
 .player--active {
   background-color: rgba(255, 255, 255, 0.4);
 }
+
 .player--active .name {
   font-weight: 700;
 }
+
 .player--active .score {
   font-weight: 400;
 }
@@ -134,9 +139,11 @@ main {
 .btn--new {
   top: 4rem;
 }
+
 .btn--roll {
   top: 39.3rem;
 }
+
 .btn--hold {
   top: 46.1rem;
 }
